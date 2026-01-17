@@ -31,11 +31,10 @@
             <p align="center">
                  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="100%" alt="Coding Cat">
             </p>
-            <a href="https://github.com/settings/profile">
-                <img src="https://img.shields.io/badge/Edit%20Profile-EFEFEF?style=for-the-badge&logoColor=black&labelColor=EFEFEF&color=EFEFEF" alt="Edit Profile">
-            </a>
+
         </td>
     </tr>
+
 </table>
 
 </div>
@@ -66,12 +65,12 @@ These projects represent intentional, long-term work rather than short-lived exp
 ## GitHub Activity
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=channi23&show_icons=true&theme=dracula&hide_border=true" height="180" alt="GitHub stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=channi23&layout=compact&theme=dracula&hide_border=true" height="180" alt="Top languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=channi23&show_icons=true&theme=dracula&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=channi23&layout=compact&theme=dracula&hide_border=true" height="180" />
 </div>
 
 <br/>
 
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=dracula&hide_border=true" alt="GitHub streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=dracula&hide_border=true" />
 </div>
