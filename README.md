@@ -1,10 +1,14 @@
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" height="auto" alt="Banner Animation"/>
+<img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" height="auto" alt="Banner Animation"/>
 
 <br/>
 
-<img src="https://media.giphy.com/media/26tn33aiU1UfCKn5K/giphy.gif" alt="Code is Art" width="100%" style="object-fit: cover;">
+<table>
+    <tr>
+        <td align="center" width="200">
+            <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" alt="Code is Art" width="100%" style="object-fit: cover;">
+        </td>
         <td width="450">
             <h1>Sri Hari Haran Sharma</h1>
             <h3>Computer Science | Software Engineering</h3>
