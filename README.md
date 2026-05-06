@@ -47,5 +47,5 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130&section=footer&text=Quantum%20Toaster&fontSize=38&fontAlignY=68&animation=twinkling" alt="Quantum Toaster" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:39FF14,50:FF00FF,100:00E5FF&height=170&section=footer&text=Frog%20Microwave&fontSize=44&fontAlignY=62&animation=twinkling&fontColor=ffffff" alt="Frog Microwave" />
 </div>
