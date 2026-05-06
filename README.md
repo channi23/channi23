@@ -14,48 +14,41 @@
                     <img src="https://img.shields.io/badge/Chess.com-5C8A47?style=flat-square&logo=chess.com&logoColor=white" alt="Chess.com">
                 </a>
             </p>
-            <pre align="left"><code>{
-  "HariHaran": {
-    "title": "Builder | Engineer | System Architect",
-    "const": "Sri Hari Haran Sharma",
-    "developer": true,
-    "identity": {
-      "roles": [
-        "Engineer",
-        "Builder",
-        "System Architect"
-      ],
-      "traits": [
-        "Accountability",
-        "Integrity",
-        "Execution",
-        "Scalability"
-      ]
-    },
-    "required": [
-      "Vision",
-      "Discipline",
-      "Growth",
-      "Impact"
-    ],
-    "oneOf": [
-      "System Builder",
-      "Technical Leader"
-    ],
-    "$ref": "#/core/system-architect",
-    "instance": {
-      "openSource": true,
-      "problemSolver": true,
-      "mission": "Build scalable systems and meaningful products"
-    },
-    "validator": {
-      "consistency": true,
-      "ambition": true,
-      "execution": true
-    },
-    "build": "Ideas into Systems"
-  }
+            <table align="center">
+                <tr>
+                    <td align="left">
+                        <b>identity.schema.json</b>
+                        <br>
+                        <img src="https://img.shields.io/badge/status-valid-39FF14?style=flat-square" alt="valid">
+                        <img src="https://img.shields.io/badge/mode-builder-00E5FF?style=flat-square" alt="builder">
+                        <img src="https://img.shields.io/badge/ref-system--architect-FF00FF?style=flat-square" alt="system architect">
+                        <pre><code>{
+  "$id": "HariHaran",
+  "const": "Sri Hari Haran Sharma",
+  "title": "Builder | Engineer | System Architect",
+  "developer": true,
+  "identity": {
+    "roles": ["Engineer", "Builder", "System Architect"],
+    "traits": ["Accountability", "Integrity", "Execution", "Scalability"]
+  },
+  "required": ["Vision", "Discipline", "Growth", "Impact"],
+  "oneOf": ["System Builder", "Technical Leader"],
+  "$ref": "#/core/system-architect",
+  "instance": {
+    "openSource": true,
+    "problemSolver": true,
+    "mission": "Build scalable systems and meaningful products"
+  },
+  "validator": {
+    "consistency": true,
+    "ambition": true,
+    "execution": true
+  },
+  "build": "Ideas into Systems"
 }</code></pre>
+                    </td>
+                </tr>
+            </table>
             <p align="center">
                  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="100%" alt="Coding Cat">
             </p>
