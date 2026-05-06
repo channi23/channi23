@@ -34,8 +34,15 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,html,css,python,java,kotlin,gcp,mysql,git&perline=8&theme=light" />
+    <img src="https://skillicons.dev/icons?i=ts,js,html,css,python,java,kotlin,nestjs,prisma,postgres,mysql,gcp,git&perline=8&theme=light" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/Deep%20Learning-111827?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="Deep Learning">
+  <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=FFA116" alt="LeetCode">
+  <img src="https://img.shields.io/badge/DSA-1F2937?style=flat-square&logo=thealgorithms&logoColor=white" alt="DSA">
 </p>
 
 ## GitHub Activity
