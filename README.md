@@ -3,8 +3,6 @@
 <table>
     <tr>
         <td width="450">
-            <h1>Sri Hari Haran Sharma</h1>
-            <h3>Computer Science | Software Engineering</h3>
             <p>
                 <a href="https://www.linkedin.com/in/sri-hariharan-sharma-aa1478286">
                     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -16,9 +14,48 @@
                     <img src="https://img.shields.io/badge/Chess.com-5C8A47?style=flat-square&logo=chess.com&logoColor=white" alt="Chess.com">
                 </a>
             </p>
-            <p>
-                <b>Banana Firewall</b>
-            </p>
+            <pre align="left"><code>{
+  "HariHaran": {
+    "title": "Builder | Engineer | System Architect",
+    "const": "Sri Hari Haran Sharma",
+    "developer": true,
+    "identity": {
+      "roles": [
+        "Engineer",
+        "Builder",
+        "System Architect"
+      ],
+      "traits": [
+        "Accountability",
+        "Integrity",
+        "Execution",
+        "Scalability"
+      ]
+    },
+    "required": [
+      "Vision",
+      "Discipline",
+      "Growth",
+      "Impact"
+    ],
+    "oneOf": [
+      "System Builder",
+      "Technical Leader"
+    ],
+    "$ref": "#/core/system-architect",
+    "instance": {
+      "openSource": true,
+      "problemSolver": true,
+      "mission": "Build scalable systems and meaningful products"
+    },
+    "validator": {
+      "consistency": true,
+      "ambition": true,
+      "execution": true
+    },
+    "build": "Ideas into Systems"
+  }
+}</code></pre>
             <p align="center">
                  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="100%" alt="Coding Cat">
             </p>
