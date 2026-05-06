@@ -20,31 +20,37 @@
                         <b>identity.schema.json</b>
                         <br>
                         <img src="https://img.shields.io/badge/status-valid-39FF14?style=flat-square" alt="valid">
-                        <img src="https://img.shields.io/badge/mode-builder-00E5FF?style=flat-square" alt="builder">
+                        <img src="https://img.shields.io/badge/mode-AI%20builder-00E5FF?style=flat-square" alt="AI builder">
                         <img src="https://img.shields.io/badge/ref-system--architect-FF00FF?style=flat-square" alt="system architect">
                         <pre><code>{
   "$id": "HariHaran",
   "const": "Sri Hari Haran Sharma",
-  "title": "Builder | Engineer | System Architect",
+  "title": "AI Builder | Engineer | System Architect",
   "developer": true,
   "identity": {
-    "roles": ["Engineer", "Builder", "System Architect"],
+    "roles": ["AI Engineer", "Builder", "System Architect"],
     "traits": ["Accountability", "Integrity", "Execution", "Scalability"]
   },
+  "ai": {
+    "focus": ["LLMs", "AI Tooling", "Agents", "ML Systems"],
+    "stack": ["Prompting", "Evaluation", "RAG", "Automation"],
+    "principle": "Turn intelligence into useful systems"
+  },
   "required": ["Vision", "Discipline", "Growth", "Impact"],
-  "oneOf": ["System Builder", "Technical Leader"],
+  "oneOf": ["AI System Builder", "Technical Leader"],
   "$ref": "#/core/system-architect",
   "instance": {
     "openSource": true,
     "problemSolver": true,
-    "mission": "Build scalable systems and meaningful products"
+    "mission": "Build AI-powered systems and meaningful products"
   },
   "validator": {
     "consistency": true,
     "ambition": true,
-    "execution": true
+    "execution": true,
+    "signalOverNoise": true
   },
-  "build": "Ideas into Systems"
+  "build": "Ideas into Intelligent Systems"
 }</code></pre>
                     </td>
                 </tr>
@@ -89,9 +95,9 @@
     <td align="center" width="64"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas"></td>
     <td align="center" width="64"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV"></td>
     <td align="center" width="64"><img src="https://cdn.simpleicons.org/leetcode/FFA116" width="48" height="48" alt="LeetCode"></td>
-    <td align="center" width="64"></td>
-    <td align="center" width="64"></td>
-    <td align="center" width="64"></td>
+    <td align="center" width="64"><img src="https://cdn.simpleicons.org/openai/FFFFFF" width="48" height="48" alt="OpenAI"></td>
+    <td align="center" width="64"><img src="https://cdn.simpleicons.org/huggingface/FFD21E" width="48" height="48" alt="Hugging Face"></td>
+    <td align="center" width="64"><img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="48" height="48" alt="LangChain"></td>
   </tr>
 </table>
 
