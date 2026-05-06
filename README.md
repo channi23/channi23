@@ -17,9 +17,7 @@
                 </a>
             </p>
             <p>
-                Aspiring to be a <b>cracked CS person</b> and <b>cracked dev</b> 🦾
-                <br>
-                <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> <i>Usually found breaking production or fixing it</i>
+                <b>Banana Firewall</b>
             </p>
             <p align="center">
                  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="100%" alt="Coding Cat">
@@ -39,19 +37,6 @@
     <img src="https://skillicons.dev/icons?i=ts,js,html,css,python,java,kotlin,gcp,mysql,git&perline=8&theme=light" />
   </a>
 </p>
-
----
-
-## Selected Projects
-
-| Project               | Description                                                                                                                                                                                          | Tech Stack           |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| **OrangeLens**        | An app and protocol designed to combat misinformation.                                                                                                                                               | Kotlin, Android      |
-| **what-iam-learning** | A continuously evolving knowledge repository documenting concepts, patterns, and insights across computer science, software engineering, and tooling. Used as a system for learning through writing. | TypeScript, Markdown |
-
-These projects represent intentional, long-term work rather than short-lived experiments.
-
----
 
 ## GitHub Activity
 
