@@ -41,12 +41,11 @@
 ## GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=channi23&show_icons=true&theme=dracula&hide_border=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=channi23&layout=compact&theme=dracula&hide_border=true" height="180" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=dracula&hide_border=true" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=dracula&hide_border=true" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130&section=footer&text=Quantum%20Toaster&fontSize=38&fontAlignY=68&animation=twinkling" alt="Quantum Toaster" />
 </div>
