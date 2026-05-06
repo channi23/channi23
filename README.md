@@ -39,10 +39,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Machine%20Learning-102230?style=flat-square&logo=tensorflow&logoColor=FF6F00" alt="Machine Learning">
-  <img src="https://img.shields.io/badge/Deep%20Learning-111827?style=flat-square&logo=pytorch&logoColor=EE4C2C" alt="Deep Learning">
-  <img src="https://img.shields.io/badge/LeetCode-000000?style=flat-square&logo=leetcode&logoColor=FFA116" alt="LeetCode">
-  <img src="https://img.shields.io/badge/DSA-1F2937?style=flat-square&logo=thealgorithms&logoColor=white" alt="DSA">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="TensorFlow">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" height="40" alt="Keras">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="40" alt="scikit-learn">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="NumPy">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="Pandas">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="40" alt="OpenCV">
+  <img src="https://cdn.simpleicons.org/leetcode/FFA116" height="40" alt="LeetCode">
 </p>
 
 ## GitHub Activity
