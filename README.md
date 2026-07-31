@@ -26,8 +26,7 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/JSON_Schema-FFC857?style=for-the-badge&logoColor=black" />
-<img src="https://img.shields.io/badge/Math-FFC857?style=for-the-badge&logoColor=black" />
+<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/stack-extra.svg" alt="JSON Schema, Math" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
 </div>
