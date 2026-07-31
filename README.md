@@ -61,27 +61,15 @@ Personal site and link hub -- one static page distributing all of my projects an
 </table>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=FF00FF&height=2&width=900&section=header" />
-</div>
-
-## WORKFLOW
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/pipeline.svg" width="100%" alt="animated build pipeline" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
-
-</div>
-
-<div align="center">
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=00E5FF&height=2&width=900&section=header" />
 </div>
 
 ## STACK
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,js,nestjs,postgres,gcp,pytorch,tensorflow,git,rust,kotlin&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,nestjs,postgres,gcp,pytorch,tensorflow,git,kotlin&theme=dark" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
 </div>
 
 <div align="center">
