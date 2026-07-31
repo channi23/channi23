@@ -3,7 +3,7 @@
 <h1>SRI HARI HARAN SHARMA</h1>
 <p><b>AI Systems Engineer</b></p>
 
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/terminal.svg" width="100%" alt="animated terminal" />
+<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/desktop.svg" width="100%" alt="desktop with project windows and dock" />
 
 <p>
   <a href="https://www.linkedin.com/in/sri-hariharan-sharma-aa1478286"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -11,7 +11,7 @@
   <a href="https://www.chess.com/member/harry_chessing"><img src="https://img.shields.io/badge/Chess.com-5C8A47?style=for-the-badge&logo=chess.com&logoColor=white" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/identity.svg" width="100%" alt="animated identity schema" />
+<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/terminal.svg" width="100%" alt="animated terminal" />
 
 </div>
 

@@ -1,0 +1,106 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, Monaco, monospace">
+  <defs>
+    <linearGradient id="wallpaper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#131a24"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="18%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="85%" cy="10%" r="55%">
+      <stop offset="0%" stop-color="#FF00FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tsIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3178C6"/><stop offset="100%" stop-color="#1a4a80"/>
+    </linearGradient>
+    <linearGradient id="orangeIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9A3C"/><stop offset="100%" stop-color="#C9600E"/>
+    </linearGradient>
+    <linearGradient id="rustIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CE7048"/><stop offset="100%" stop-color="#7A3B1E"/>
+    </linearGradient>
+    <linearGradient id="pinkIcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6EC7"/><stop offset="100%" stop-color="#A6329B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .bounce { animation: bounce 2.6s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+    .b1 { animation-delay: 0s; }
+    .b2 { animation-delay: 0.3s; }
+    .b3 { animation-delay: 0.6s; }
+    .b4 { animation-delay: 0.9s; }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50%      { transform: translateY(-7px) scale(1.06); }
+    }
+  </style>
+
+  <rect x="0" y="0" width="900" height="280" rx="12" fill="url(#wallpaper)"/>
+  <rect x="0" y="0" width="900" height="280" rx="12" fill="url(#glowCyan)"/>
+  <rect x="0" y="0" width="900" height="280" rx="12" fill="url(#glowPink)"/>
+
+  <rect x="0" y="0" width="900" height="24" rx="12" fill="#161B22"/>
+  <rect x="0" y="12" width="900" height="12" fill="#161B22"/>
+  <path d="M22,8 l4,-4 l4,4 l-4,4 z" fill="#39FF14"/>
+  <text x="38" y="16" fill="#F0F6FC" font-size="11" font-weight="bold">channi23</text>
+  <text x="140" y="16" fill="#8B949E" font-size="10">File   Edit   View   Window</text>
+  <text x="860" y="16" fill="#8B949E" font-size="10" text-anchor="end">AI · Systems · 2026</text>
+
+  <g opacity="0.55" transform="rotate(-3 190 115)">
+    <rect x="90" y="55" width="200" height="120" rx="8" fill="#161B22" stroke="#30363d" stroke-width="1.5"/>
+    <circle cx="106" cy="68" r="4" fill="#FF5F56"/><circle cx="120" cy="68" r="4" fill="#FFBD2E"/><circle cx="134" cy="68" r="4" fill="#27C93F"/>
+    <text x="190" y="72" fill="#8B949E" font-size="9" text-anchor="middle">sizuka.ts</text>
+    <rect x="106" y="86" width="120" height="6" rx="3" fill="#3178C6" opacity="0.6"/>
+    <rect x="106" y="100" width="160" height="6" rx="3" fill="#39FF14" opacity="0.4"/>
+    <rect x="106" y="114" width="90" height="6" rx="3" fill="#00E5FF" opacity="0.4"/>
+    <rect x="106" y="128" width="140" height="6" rx="3" fill="#8B949E" opacity="0.3"/>
+  </g>
+
+  <g opacity="0.55" transform="rotate(3 700 105)">
+    <rect x="610" y="45" width="200" height="120" rx="8" fill="#161B22" stroke="#30363d" stroke-width="1.5"/>
+    <circle cx="626" cy="58" r="4" fill="#FF5F56"/><circle cx="640" cy="58" r="4" fill="#FFBD2E"/><circle cx="654" cy="58" r="4" fill="#27C93F"/>
+    <text x="710" y="62" fill="#8B949E" font-size="9" text-anchor="middle">OrangeLens.kt</text>
+    <rect x="626" y="76" width="130" height="6" rx="3" fill="#FF9A3C" opacity="0.6"/>
+    <rect x="626" y="90" width="100" height="6" rx="3" fill="#FF00FF" opacity="0.4"/>
+    <rect x="626" y="104" width="150" height="6" rx="3" fill="#00E5FF" opacity="0.4"/>
+    <rect x="626" y="118" width="80" height="6" rx="3" fill="#8B949E" opacity="0.3"/>
+  </g>
+
+  <rect x="290" y="196" width="320" height="58" rx="18" fill="#161B22" opacity="0.9" stroke="#30363d" stroke-width="1"/>
+
+  <g class="bounce b1">
+    <rect x="306" y="203" width="44" height="44" rx="12" fill="url(#tsIcon)"/>
+    <rect x="317" y="213" width="16" height="20" rx="2" fill="#fff" opacity="0.9"/>
+    <circle cx="336" cy="235" r="5" fill="none" stroke="#fff" stroke-width="2"/>
+    <line x1="340" y1="239" x2="345" y2="244" stroke="#fff" stroke-width="2"/>
+  </g>
+  <text x="328" y="266" fill="#8B949E" font-size="8" text-anchor="middle">sizuka</text>
+
+  <g class="bounce b2">
+    <rect x="358" y="203" width="44" height="44" rx="12" fill="url(#orangeIcon)"/>
+    <circle cx="380" cy="225" r="12" fill="none" stroke="#fff" stroke-width="2.5"/>
+    <circle cx="380" cy="225" r="4" fill="#fff"/>
+  </g>
+  <text x="380" y="266" fill="#8B949E" font-size="8" text-anchor="middle">OrangeLens</text>
+
+  <g class="bounce b3">
+    <rect x="410" y="203" width="44" height="44" rx="12" fill="url(#rustIcon)"/>
+    <circle cx="424" cy="218" r="3.5" fill="#fff"/>
+    <circle cx="440" cy="218" r="3.5" fill="#fff"/>
+    <circle cx="432" cy="235" r="3.5" fill="#fff"/>
+    <line x1="424" y1="218" x2="432" y2="235" stroke="#fff" stroke-width="1.5"/>
+    <line x1="440" y1="218" x2="432" y2="235" stroke="#fff" stroke-width="1.5"/>
+    <line x1="424" y1="218" x2="440" y2="218" stroke="#fff" stroke-width="1.5"/>
+  </g>
+  <text x="432" y="266" fill="#8B949E" font-size="8" text-anchor="middle">Dsprout</text>
+
+  <g class="bounce b4">
+    <rect x="462" y="203" width="44" height="44" rx="12" fill="url(#pinkIcon)"/>
+    <rect x="472" y="218" width="14" height="8" rx="4" fill="none" stroke="#fff" stroke-width="2"/>
+    <rect x="482" y="228" width="14" height="8" rx="4" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+  <text x="484" y="266" fill="#8B949E" font-size="8" text-anchor="middle">myrac</text>
+</svg>
