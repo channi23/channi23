@@ -19,55 +19,15 @@
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=2&width=900&section=header" />
 </div>
 
-## BUILD LOG
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-**[ sizuka ](https://github.com/channi23/sizuka)**
-`TypeScript`
-
-Free local recruiter-agent -- parses resumes and job postings, matches them locally with no cloud calls, no data leaves the machine.
-
-</td>
-<td width="50%" valign="top">
-
-**[ OrangeLens ](https://github.com/channi23/OrangeLens)**
-`Kotlin`
-
-Android vision app -- camera feed in, live on-device detection/classification out.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[ Dsprout ](https://github.com/channi23/Dsprout)**
-`Rust`
-
-Decentralized cloud storage platform -- nodes pool spare disk space, files shard and replicate across peers instead of one provider.
-
-</td>
-<td width="50%" valign="top">
-
-**[ myrac ](https://github.com/channi23/myrac)**
-`HTML`
-
-Personal site and link hub -- one static page distributing all of my projects and profiles.
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00E5FF&height=2&width=900&section=header" />
-</div>
-
 ## STACK
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,js,java,nestjs,postgres,gcp,pytorch,tensorflow,git,kotlin&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,ts,js,java,nestjs,postgres,gcp,pytorch,tensorflow,git&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/JSON_Schema-FFC857?style=for-the-badge&logoColor=black" />
+<img src="https://img.shields.io/badge/Math-FFC857?style=for-the-badge&logoColor=black" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
 </div>
