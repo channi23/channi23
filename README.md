@@ -3,8 +3,6 @@
 <h1>SRI HARI HARAN SHARMA</h1>
 <p><b>AI Systems Engineer</b></p>
 
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/desktop.svg" width="100%" alt="desktop with project windows and dock" />
-
 <p>
   <a href="https://www.linkedin.com/in/sri-hariharan-sharma-aa1478286"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://x.com/hariharangurum1"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
@@ -66,17 +64,7 @@ Personal site and link hub -- one static page distributing all of my projects an
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=FF00FF&height=2&width=900&section=header" />
 </div>
 
-## STACK
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,js,nestjs,postgres,gcp,pytorch,tensorflow,git,rust,kotlin&theme=dark" />
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=00E5FF&height=2&width=900&section=header" />
-</div>
-
-## HOW IT GETS BUILT
+## WORKFLOW
 
 <div align="center">
 
@@ -84,6 +72,16 @@ Personal site and link hub -- one static page distributing all of my projects an
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
 
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=transparent&color=00E5FF&height=2&width=900&section=header" />
+</div>
+
+## STACK
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=py,ts,js,nestjs,postgres,gcp,pytorch,tensorflow,git,rust,kotlin&theme=dark" />
 </div>
 
 <div align="center">
