@@ -41,7 +41,7 @@
     <line x1="220" y1="630" x2="280" y2="420"/>
   </g>
 
-  <!-- sequential edges -->
+  <!-- CORE -> LEARNING -->
   <g stroke="#30363d" stroke-width="1" opacity="0.4">
     <line x1="480" y1="420" x2="555" y2="233"/>
     <line x1="480" y1="420" x2="555" y2="308"/>
@@ -50,61 +50,70 @@
     <line x1="480" y1="420" x2="555" y2="533"/>
     <line x1="480" y1="420" x2="555" y2="608"/>
 
-    <line x1="745" y1="233" x2="830" y2="383"/>
-    <line x1="745" y1="308" x2="830" y2="383"/>
-    <line x1="745" y1="308" x2="830" y2="458"/>
+    <line x1="745" y1="233" x2="830" y2="345"/>
+    <line x1="745" y1="308" x2="830" y2="345"/>
+    <line x1="745" y1="308" x2="830" y2="420"/>
+    <line x1="745" y1="383" x2="830" y2="495"/>
+    <line x1="745" y1="458" x2="830" y2="495"/>
 
-    <line x1="970" y1="383" x2="1050" y2="270"/>
-    <line x1="970" y1="383" x2="1050" y2="345"/>
-    <line x1="970" y1="383" x2="1050" y2="420"/>
-    <line x1="970" y1="458" x2="1050" y2="420"/>
-    <line x1="970" y1="458" x2="1050" y2="495"/>
-    <line x1="970" y1="458" x2="1050" y2="570"/>
+    <line x1="970" y1="345" x2="1050" y2="225"/>
+    <line x1="970" y1="345" x2="1050" y2="290"/>
+    <line x1="970" y1="345" x2="1050" y2="355"/>
+    <line x1="970" y1="420" x2="1050" y2="355"/>
+    <line x1="970" y1="420" x2="1050" y2="420"/>
+    <line x1="970" y1="420" x2="1050" y2="485"/>
+    <line x1="970" y1="495" x2="1050" y2="550"/>
+    <line x1="970" y1="495" x2="1050" y2="615"/>
 
-    <line x1="1250" y1="270" x2="1315" y2="383"/>
-    <line x1="1250" y1="345" x2="1315" y2="383"/>
-    <line x1="1250" y1="420" x2="1315" y2="383"/>
-    <line x1="1250" y1="420" x2="1315" y2="458"/>
-    <line x1="1250" y1="495" x2="1315" y2="458"/>
-    <line x1="1250" y1="570" x2="1315" y2="458"/>
+    <line x1="1250" y1="225" x2="1315" y2="345"/>
+    <line x1="1250" y1="290" x2="1315" y2="345"/>
+    <line x1="1250" y1="355" x2="1315" y2="345"/>
+    <line x1="1250" y1="355" x2="1315" y2="420"/>
+    <line x1="1250" y1="420" x2="1315" y2="420"/>
+    <line x1="1250" y1="485" x2="1315" y2="420"/>
+    <line x1="1250" y1="550" x2="1315" y2="495"/>
+    <line x1="1250" y1="615" x2="1315" y2="495"/>
 
-    <line x1="1525" y1="383" x2="1555" y2="420"/>
-    <line x1="1525" y1="458" x2="1555" y2="420"/>
+    <line x1="1525" y1="345" x2="1555" y2="420"/>
+    <line x1="1525" y1="420" x2="1555" y2="420"/>
+    <line x1="1525" y1="495" x2="1555" y2="420"/>
   </g>
 
-  <!-- skip connections: foundational learning feeding domain directly -->
+  <!-- skip connections: architectural learning feeding domain directly -->
   <g fill="none" stroke="#8957e5" stroke-width="1.2" stroke-dasharray="5 4" opacity="0.55">
-    <path id="skip1" d="M745,383 Q1030,700 1315,383"/>
-    <path id="skip2" d="M745,458 Q1030,720 1315,383"/>
-    <path id="skip3" d="M745,533 Q1030,740 1315,383"/>
-    <path id="skip4" d="M745,533 Q1030,760 1315,458"/>
-    <path id="skip5" d="M745,608 Q1030,780 1315,383"/>
+    <path id="skip3" d="M745,533 Q1030,720 1315,345"/>
+    <path id="skip4" d="M745,533 Q1030,740 1315,420"/>
+    <path id="skip5" d="M745,608 Q1030,760 1315,345"/>
   </g>
 
   <!-- traveling signals -->
   <circle r="5" fill="#00E5FF" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M380,420 L650,233 L900,383 L1150,270 L1420,383 L1670,420"/>
+    <animateMotion dur="6s" begin="0s" repeatCount="indefinite" path="M380,420 L650,233 L900,345 L1150,225 L1420,345 L1670,420"/>
     <animate attributeName="fill" values="#00E5FF;#39FF14;#00E5FF" dur="6s" begin="0s" repeatCount="indefinite"/>
   </circle>
   <circle r="5" fill="#FF00FF" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="1.2s" repeatCount="indefinite" path="M380,420 L650,308 L900,458 L1150,495 L1420,458 L1670,420"/>
+    <animateMotion dur="6s" begin="1.2s" repeatCount="indefinite" path="M380,420 L650,308 L900,420 L1150,420 L1420,420 L1670,420"/>
     <animate attributeName="fill" values="#FF00FF;#00E5FF;#FF00FF" dur="6s" begin="1.2s" repeatCount="indefinite"/>
   </circle>
   <circle r="5" fill="#39FF14" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="2.4s" repeatCount="indefinite" path="M380,420 L650,308 L900,383 L1150,420 L1420,383 L1670,420"/>
+    <animateMotion dur="6s" begin="2.4s" repeatCount="indefinite" path="M380,420 L650,308 L900,345 L1150,355 L1420,345 L1670,420"/>
     <animate attributeName="fill" values="#39FF14;#FF00FF;#39FF14" dur="6s" begin="2.4s" repeatCount="indefinite"/>
   </circle>
-  <circle r="5" fill="#00E5FF" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="3.6s" repeatCount="indefinite" path="M380,420 L650,308 L900,458 L1150,570 L1420,458 L1670,420"/>
-    <animate attributeName="fill" values="#00E5FF;#8957e5;#00E5FF" dur="6s" begin="3.6s" repeatCount="indefinite"/>
+  <circle r="5" fill="#FFC857" filter="url(#sigGlow)">
+    <animateMotion dur="6s" begin="3.6s" repeatCount="indefinite" path="M380,420 L650,308 L900,420 L1150,485 L1420,420 L1670,420"/>
+    <animate attributeName="fill" values="#FFC857;#FF00FF;#FFC857" dur="6s" begin="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#FF8A00" filter="url(#sigGlow)">
+    <animateMotion dur="6s" begin="4.2s" repeatCount="indefinite" path="M380,420 L650,383 L900,495 L1150,550 L1420,495 L1670,420"/>
+    <animate attributeName="fill" values="#FF8A00;#FFC857;#FF8A00" dur="6s" begin="4.2s" repeatCount="indefinite"/>
   </circle>
   <circle r="5" fill="#8957e5" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="4.8s" repeatCount="indefinite" path="M380,420 L650,383 Q1030,700 1315,383 L1670,420"/>
+    <animateMotion dur="6s" begin="4.8s" repeatCount="indefinite" path="M380,420 L650,533 Q1030,720 1315,345 L1670,420"/>
     <animate attributeName="fill" values="#8957e5;#FF00FF;#8957e5" dur="6s" begin="4.8s" repeatCount="indefinite"/>
   </circle>
   <circle r="5" fill="#58A6FF" filter="url(#sigGlow)">
-    <animateMotion dur="6s" begin="0.6s" repeatCount="indefinite" path="M220,420 L280,420 L480,420 L650,383 L900,383 L1150,345 L1420,388 L1670,420"/>
-    <animate attributeName="fill" values="#58A6FF;#00E5FF;#58A6FF" dur="6s" begin="0.6s" repeatCount="indefinite"/>
+    <animateMotion dur="6s" begin="0.6s" repeatCount="indefinite" path="M220,280 L280,420 L480,420 L650,383 L900,495 L1150,550 L1420,495 L1670,420"/>
+    <animate attributeName="fill" values="#58A6FF;#FF8A00;#58A6FF" dur="6s" begin="0.6s" repeatCount="indefinite"/>
   </circle>
 
   <!-- SOURCES -->
@@ -162,38 +171,50 @@
 
   <!-- LANGUAGES -->
   <g font-size="13" text-anchor="middle">
-    <g filter="url(#nodeGlow)"><rect x="830" y="364" width="140" height="38" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.4"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect></g>
-    <text x="900" y="388" fill="#00E5FF">Java</text>
+    <g filter="url(#nodeGlow)"><rect x="830" y="326" width="140" height="38" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.4"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect></g>
+    <text x="900" y="350" fill="#00E5FF">Java</text>
 
-    <g filter="url(#nodeGlow)"><rect x="830" y="439" width="140" height="38" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.4"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="1.7s" repeatCount="indefinite"/></rect></g>
-    <text x="900" y="463" fill="#00E5FF">TypeScript</text>
+    <g filter="url(#nodeGlow)"><rect x="830" y="401" width="140" height="38" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.4"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="1.7s" repeatCount="indefinite"/></rect></g>
+    <text x="900" y="425" fill="#00E5FF">TypeScript</text>
+
+    <g filter="url(#nodeGlow)"><rect x="830" y="476" width="140" height="38" rx="8" fill="#161B22" stroke="#FF8A00" stroke-width="1.4"><animate attributeName="stroke" values="#FF8A00;#F0F6FC;#FF8A00" dur="3s" begin="1.8s" repeatCount="indefinite"/></rect></g>
+    <text x="900" y="500" fill="#FF8A00">Python</text>
   </g>
 
   <!-- APPLIED -->
   <g font-size="11.5" text-anchor="middle">
-    <g filter="url(#nodeGlow)"><rect x="1050" y="251" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="1.9s" repeatCount="indefinite"/></rect></g>
-    <text x="1150" y="275" fill="#FF00FF">DSA Practice</text>
+    <g filter="url(#nodeGlow)"><rect x="1050" y="206" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.0s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="230" fill="#FF00FF">DSA Practice</text>
 
-    <g filter="url(#nodeGlow)"><rect x="1050" y="326" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.0s" repeatCount="indefinite"/></rect></g>
-    <text x="1150" y="350" fill="#FF00FF">Core Engine Packages</text>
+    <g filter="url(#nodeGlow)"><rect x="1050" y="271" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.1s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="295" fill="#FF00FF">Core Engine Packages</text>
 
-    <g filter="url(#nodeGlow)"><rect x="1050" y="401" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.1s" repeatCount="indefinite"/></rect></g>
-    <text x="1150" y="425" fill="#FF00FF">Schema Validator</text>
+    <g filter="url(#nodeGlow)"><rect x="1050" y="336" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.2s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="360" fill="#FF00FF">Schema Validator</text>
 
-    <g filter="url(#nodeGlow)"><rect x="1050" y="476" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.2s" repeatCount="indefinite"/></rect></g>
-    <text x="1150" y="500" fill="#FF00FF">NestJS</text>
+    <g filter="url(#nodeGlow)"><rect x="1050" y="401" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.3s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="425" fill="#FF00FF">NestJS</text>
 
-    <g filter="url(#nodeGlow)"><rect x="1050" y="551" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.3s" repeatCount="indefinite"/></rect></g>
-    <text x="1150" y="575" fill="#FF00FF">SvelteKit</text>
+    <g filter="url(#nodeGlow)"><rect x="1050" y="466" width="200" height="38" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="2.4s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="490" fill="#FF00FF">SvelteKit</text>
+
+    <g filter="url(#nodeGlow)"><rect x="1050" y="531" width="200" height="38" rx="8" fill="#161B22" stroke="#FF8A00" stroke-width="1.3"><animate attributeName="stroke" values="#FF8A00;#F0F6FC;#FF8A00" dur="3s" begin="2.5s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="555" fill="#FF8A00">Using Models</text>
+
+    <g filter="url(#nodeGlow)"><rect x="1050" y="596" width="200" height="38" rx="8" fill="#161B22" stroke="#FF8A00" stroke-width="1.3"><animate attributeName="stroke" values="#FF8A00;#F0F6FC;#FF8A00" dur="3s" begin="2.6s" repeatCount="indefinite"/></rect></g>
+    <text x="1150" y="620" fill="#FF8A00">Evaluating Agents</text>
   </g>
 
   <!-- DOMAIN -->
   <g font-size="12.5" text-anchor="middle">
-    <g filter="url(#nodeGlow)"><rect x="1315" y="364" width="210" height="38" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.4"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="2.5s" repeatCount="indefinite"/></rect></g>
-    <text x="1420" y="388" fill="#39FF14">Backend Development</text>
+    <g filter="url(#nodeGlow)"><rect x="1315" y="326" width="210" height="38" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.4"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="2.8s" repeatCount="indefinite"/></rect></g>
+    <text x="1420" y="350" fill="#39FF14">Backend Development</text>
 
-    <g filter="url(#nodeGlow)"><rect x="1315" y="439" width="210" height="38" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.4"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="2.6s" repeatCount="indefinite"/></rect></g>
-    <text x="1420" y="463" fill="#39FF14">Application Development</text>
+    <g filter="url(#nodeGlow)"><rect x="1315" y="401" width="210" height="38" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.4"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="2.9s" repeatCount="indefinite"/></rect></g>
+    <text x="1420" y="425" fill="#39FF14">Application Development</text>
+
+    <g filter="url(#nodeGlow)"><rect x="1315" y="476" width="210" height="38" rx="8" fill="#161B22" stroke="#FF8A00" stroke-width="1.4"><animate attributeName="stroke" values="#FF8A00;#F0F6FC;#FF8A00" dur="3s" begin="3.0s" repeatCount="indefinite"/></rect></g>
+    <text x="1420" y="500" fill="#FF8A00">AI/ML Applications</text>
   </g>
 
   <!-- OUTPUT -->
