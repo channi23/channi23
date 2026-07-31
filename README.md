@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>SRI HARI HARAN SHARMA</h1>
-<p><b>AI / Systems Engineer</b></p>
+<p><b>AI Systems Engineer</b></p>
 
 <img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/terminal.svg" width="100%" alt="animated terminal" />
 
@@ -10,6 +10,18 @@
   <a href="https://x.com/hariharangurum1"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   <a href="https://www.chess.com/member/harry_chessing"><img src="https://img.shields.io/badge/Chess.com-5C8A47?style=for-the-badge&logo=chess.com&logoColor=white" /></a>
 </p>
+
+<pre align="left"><code>{
+  "HariHaran": {
+    "title": "AI Systems Engineer",
+    "const": "Sri Hari Haran Sharma",
+    "stack": ["Python", "TypeScript", "Rust", "Kotlin"],
+    "focus": ["ai/ml systems", "backend apis", "pipelines", "automation"],
+    "traits": ["execution", "scalability", "integrity"],
+    "status": "open_for_freelance",
+    "$ref": "#/core/system-architect"
+  }
+}</code></pre>
 
 </div>
 
@@ -46,7 +58,7 @@ Android vision app -- camera feed in, live on-device detection/classification ou
 **[ Dsprout ](https://github.com/channi23/Dsprout)**
 `Rust`
 
-Small systems-level CLI/service, built for speed and a tiny footprint.
+Decentralized cloud storage platform -- nodes pool spare disk space, files shard and replicate across peers instead of one provider.
 
 </td>
 <td width="50%" valign="top">

@@ -1,17 +1,5 @@
 <svg width="700" height="230" viewBox="0 0 700 230" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, Monaco, monospace">
   <defs>
-    <clipPath id="clipL1"><rect x="0" y="0" height="20" width="0">
-      <animate attributeName="width" values="0;300;300;0" keyTimes="0;0.15;0.9;1" dur="9s" begin="0s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="clipL2"><rect x="0" y="0" height="20" width="0">
-      <animate attributeName="width" values="0;430;430;0" keyTimes="0;0.15;0.9;1" dur="9s" begin="1.6s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="clipL3"><rect x="0" y="0" height="20" width="0">
-      <animate attributeName="width" values="0;380;380;0" keyTimes="0;0.15;0.9;1" dur="9s" begin="3.2s" repeatCount="indefinite"/>
-    </rect></clipPath>
-    <clipPath id="clipL4"><rect x="0" y="0" height="20" width="0">
-      <animate attributeName="width" values="0;340;340;0" keyTimes="0;0.15;0.9;1" dur="9s" begin="4.8s" repeatCount="indefinite"/>
-    </rect></clipPath>
     <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#39FF14">
         <animate attributeName="stop-color" values="#39FF14;#00E5FF;#FF00FF;#39FF14" dur="6s" repeatCount="indefinite"/>
@@ -20,13 +8,25 @@
         <animate attributeName="stop-color" values="#FF00FF;#39FF14;#00E5FF;#FF00FF" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#ffffff" opacity="0.015"/>
-    </pattern>
   </defs>
 
+  <style>
+    .line { animation: reveal 9s ease-in-out infinite; }
+    .l1 { animation-delay: 0s; }
+    .l2 { animation-delay: 1.6s; }
+    .l3 { animation-delay: 3.2s; }
+    .l4 { animation-delay: 4.8s; }
+    @keyframes reveal {
+      0%   { clip-path: inset(0 100% 0 0); }
+      15%  { clip-path: inset(0 0 0 0); }
+      90%  { clip-path: inset(0 0 0 0); }
+      100% { clip-path: inset(0 100% 0 0); }
+    }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+  </style>
+
   <rect x="1" y="1" width="698" height="228" rx="10" fill="#0D1117" stroke="url(#borderGlow)" stroke-width="1.5"/>
-  <rect x="1" y="1" width="698" height="228" rx="10" fill="url(#scanlines)"/>
 
   <rect x="1" y="1" width="698" height="34" rx="10" fill="#161B22"/>
   <rect x="1" y="24" width="698" height="11" fill="#161B22"/>
@@ -35,12 +35,10 @@
   <circle cx="68" cy="18" r="6" fill="#27C93F"/>
   <text x="350" y="23" fill="#8B949E" font-size="13" text-anchor="middle">sri@channi23: ~</text>
 
-  <text x="26" y="72" fill="#39FF14" font-size="16" clip-path="url(#clipL1)">$ whoami</text>
-  <text x="26" y="104" fill="#00E5FF" font-size="16" clip-path="url(#clipL2)">&gt; final-year CS student, building AI &amp; backend systems</text>
-  <text x="26" y="136" fill="#FF00FF" font-size="16" clip-path="url(#clipL3)">&gt; shipping small tools that solve real problems</text>
-  <text x="26" y="168" fill="#F0F6FC" font-size="16" clip-path="url(#clipL4)">&gt; status: open for freelance work</text>
+  <text class="line l1" x="26" y="72" fill="#39FF14" font-size="16">$ hariharan --code --build --ship</text>
+  <text class="line l2" x="26" y="104" fill="#00E5FF" font-size="16">&gt; engineer.init() -- ai systems, backend, pipelines</text>
+  <text class="line l3" x="26" y="136" fill="#FF00FF" font-size="16">&gt; uptime: always shipping</text>
+  <text class="line l4" x="26" y="168" fill="#F0F6FC" font-size="16">&gt; status: open for freelance work</text>
 
-  <rect x="26" y="180" width="10" height="18" fill="#39FF14">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
+  <rect class="cursor" x="26" y="180" width="10" height="18" fill="#39FF14"/>
 </svg>
