@@ -1,0 +1,161 @@
+<svg width="1120" height="460" viewBox="0 0 1120 460" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, Monaco, monospace">
+  <defs>
+    <linearGradient id="netBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14">
+        <animate attributeName="stop-color" values="#39FF14;#00E5FF;#FF00FF;#39FF14" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#FF00FF">
+        <animate attributeName="stop-color" values="#FF00FF;#39FF14;#00E5FF;#FF00FF" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="nodeGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter name="sig" id="sigGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <path id="np1" d="M130,235 L340,115 L560,235 L780,275 L980,235"/>
+    <path id="np2" d="M130,235 L340,195 L560,315 L780,115 L980,235"/>
+    <path id="np3" d="M130,235 L340,275 L560,155 L780,355 L980,235"/>
+    <path id="np4" d="M130,235 L340,355 L560,235 L780,195 L980,235"/>
+    <path id="np5" d="M130,235 L340,115 L560,315 L780,355 L980,235"/>
+  </defs>
+
+  <rect x="1" y="1" width="1118" height="458" rx="12" fill="#0D1117" stroke="url(#netBorder)" stroke-width="1.5"/>
+
+  <text x="560" y="34" fill="#8B949E" font-size="13" text-anchor="middle">class Engineer(nn.Module): def forward(self): return shipped_system</text>
+
+  <g fill="#8B949E" font-size="11" font-weight="bold" text-anchor="middle" letter-spacing="1">
+    <text x="130" y="70">CORE</text>
+    <text x="340" y="70">STACK</text>
+    <text x="560" y="70">TRAITS</text>
+    <text x="780" y="70">FOCUS</text>
+    <text x="980" y="70">OUTPUT</text>
+  </g>
+
+  <!-- edges -->
+  <g stroke="#30363d" stroke-width="1" opacity="0.35">
+    <line x1="130" y1="235" x2="340" y2="115"/>
+    <line x1="130" y1="235" x2="340" y2="195"/>
+    <line x1="130" y1="235" x2="340" y2="275"/>
+    <line x1="130" y1="235" x2="340" y2="355"/>
+
+    <line x1="340" y1="115" x2="560" y2="155"/>
+    <line x1="340" y1="115" x2="560" y2="235"/>
+    <line x1="340" y1="115" x2="560" y2="315"/>
+    <line x1="340" y1="195" x2="560" y2="155"/>
+    <line x1="340" y1="195" x2="560" y2="235"/>
+    <line x1="340" y1="195" x2="560" y2="315"/>
+    <line x1="340" y1="275" x2="560" y2="155"/>
+    <line x1="340" y1="275" x2="560" y2="235"/>
+    <line x1="340" y1="275" x2="560" y2="315"/>
+    <line x1="340" y1="355" x2="560" y2="155"/>
+    <line x1="340" y1="355" x2="560" y2="235"/>
+    <line x1="340" y1="355" x2="560" y2="315"/>
+
+    <line x1="560" y1="155" x2="780" y2="115"/>
+    <line x1="560" y1="155" x2="780" y2="195"/>
+    <line x1="560" y1="155" x2="780" y2="275"/>
+    <line x1="560" y1="155" x2="780" y2="355"/>
+    <line x1="560" y1="235" x2="780" y2="115"/>
+    <line x1="560" y1="235" x2="780" y2="195"/>
+    <line x1="560" y1="235" x2="780" y2="275"/>
+    <line x1="560" y1="235" x2="780" y2="355"/>
+    <line x1="560" y1="315" x2="780" y2="115"/>
+    <line x1="560" y1="315" x2="780" y2="195"/>
+    <line x1="560" y1="315" x2="780" y2="275"/>
+    <line x1="560" y1="315" x2="780" y2="355"/>
+
+    <line x1="780" y1="115" x2="980" y2="235"/>
+    <line x1="780" y1="195" x2="980" y2="235"/>
+    <line x1="780" y1="275" x2="980" y2="235"/>
+    <line x1="780" y1="355" x2="980" y2="235"/>
+  </g>
+
+  <!-- traveling signals -->
+  <circle r="5" fill="#00E5FF" filter="url(#sigGlow)">
+    <animateMotion dur="5s" begin="0s" repeatCount="indefinite"><mpath href="#np1"/></animateMotion>
+    <animate attributeName="fill" values="#00E5FF;#39FF14;#00E5FF" dur="5s" begin="0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#FF00FF" filter="url(#sigGlow)">
+    <animateMotion dur="5s" begin="1s" repeatCount="indefinite"><mpath href="#np2"/></animateMotion>
+    <animate attributeName="fill" values="#FF00FF;#00E5FF;#FF00FF" dur="5s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#39FF14" filter="url(#sigGlow)">
+    <animateMotion dur="5s" begin="2s" repeatCount="indefinite"><mpath href="#np3"/></animateMotion>
+    <animate attributeName="fill" values="#39FF14;#FF00FF;#39FF14" dur="5s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#00E5FF" filter="url(#sigGlow)">
+    <animateMotion dur="5s" begin="3s" repeatCount="indefinite"><mpath href="#np4"/></animateMotion>
+    <animate attributeName="fill" values="#00E5FF;#39FF14;#00E5FF" dur="5s" begin="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#FF00FF" filter="url(#sigGlow)">
+    <animateMotion dur="5s" begin="4s" repeatCount="indefinite"><mpath href="#np5"/></animateMotion>
+    <animate attributeName="fill" values="#FF00FF;#00E5FF;#FF00FF" dur="5s" begin="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- CORE node -->
+  <g filter="url(#nodeGlow)">
+    <rect x="30" y="200" width="200" height="70" rx="10" fill="#161B22" stroke="#F0F6FC" stroke-width="1.5">
+      <animate attributeName="stroke" values="#F0F6FC;#39FF14;#F0F6FC" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="130" y="230" fill="#F0F6FC" font-size="13" font-weight="bold" text-anchor="middle">Sri Hari Haran Sharma</text>
+  <text x="130" y="250" fill="#8B949E" font-size="11" text-anchor="middle">AI Systems Engineer</text>
+
+  <!-- STACK nodes -->
+  <g font-size="12" text-anchor="middle">
+    <g filter="url(#nodeGlow)"><rect x="285" y="98" width="110" height="34" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.3"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="0.3s" repeatCount="indefinite"/></rect></g>
+    <text x="340" y="119" fill="#00E5FF">Python</text>
+
+    <g filter="url(#nodeGlow)"><rect x="285" y="178" width="110" height="34" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.3"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="0.4s" repeatCount="indefinite"/></rect></g>
+    <text x="340" y="199" fill="#00E5FF">TypeScript</text>
+
+    <g filter="url(#nodeGlow)"><rect x="285" y="258" width="110" height="34" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.3"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect></g>
+    <text x="340" y="279" fill="#00E5FF">Rust</text>
+
+    <g filter="url(#nodeGlow)"><rect x="285" y="338" width="110" height="34" rx="8" fill="#161B22" stroke="#00E5FF" stroke-width="1.3"><animate attributeName="stroke" values="#00E5FF;#F0F6FC;#00E5FF" dur="3s" begin="0.6s" repeatCount="indefinite"/></rect></g>
+    <text x="340" y="359" fill="#00E5FF">Kotlin</text>
+  </g>
+
+  <!-- TRAITS nodes -->
+  <g font-size="12" text-anchor="middle">
+    <g filter="url(#nodeGlow)"><rect x="505" y="138" width="110" height="34" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="0.9s" repeatCount="indefinite"/></rect></g>
+    <text x="560" y="159" fill="#FF00FF">Execution</text>
+
+    <g filter="url(#nodeGlow)"><rect x="505" y="218" width="110" height="34" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="1.0s" repeatCount="indefinite"/></rect></g>
+    <text x="560" y="239" fill="#FF00FF">Scalability</text>
+
+    <g filter="url(#nodeGlow)"><rect x="505" y="298" width="110" height="34" rx="8" fill="#161B22" stroke="#FF00FF" stroke-width="1.3"><animate attributeName="stroke" values="#FF00FF;#F0F6FC;#FF00FF" dur="3s" begin="1.1s" repeatCount="indefinite"/></rect></g>
+    <text x="560" y="319" fill="#FF00FF">Integrity</text>
+  </g>
+
+  <!-- FOCUS nodes -->
+  <g font-size="12" text-anchor="middle">
+    <g filter="url(#nodeGlow)"><rect x="705" y="98" width="150" height="34" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.3"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="1.4s" repeatCount="indefinite"/></rect></g>
+    <text x="780" y="119" fill="#39FF14">AI/ML Systems</text>
+
+    <g filter="url(#nodeGlow)"><rect x="705" y="178" width="150" height="34" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.3"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect></g>
+    <text x="780" y="199" fill="#39FF14">Backend APIs</text>
+
+    <g filter="url(#nodeGlow)"><rect x="705" y="258" width="150" height="34" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.3"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect></g>
+    <text x="780" y="279" fill="#39FF14">Pipelines</text>
+
+    <g filter="url(#nodeGlow)"><rect x="705" y="338" width="150" height="34" rx="8" fill="#161B22" stroke="#39FF14" stroke-width="1.3"><animate attributeName="stroke" values="#39FF14;#F0F6FC;#39FF14" dur="3s" begin="1.7s" repeatCount="indefinite"/></rect></g>
+    <text x="780" y="359" fill="#39FF14">Automation</text>
+  </g>
+
+  <!-- OUTPUT node -->
+  <g filter="url(#nodeGlow)">
+    <rect x="870" y="200" width="220" height="70" rx="10" fill="#161B22" stroke="#F0F6FC" stroke-width="1.5">
+      <animate attributeName="stroke" values="#F0F6FC;#FF00FF;#F0F6FC" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <text x="980" y="230" fill="#F0F6FC" font-size="13" font-weight="bold" text-anchor="middle">Always Shipping</text>
+  <text x="980" y="250" fill="#8B949E" font-size="11" text-anchor="middle">open for freelance work</text>
+
+  <text x="560" y="440" fill="#8B949E" font-size="12" text-anchor="middle">identity -&gt; stack -&gt; traits -&gt; focus -&gt; output, every layer trainable, none of it fake</text>
+</svg>

@@ -9,7 +9,7 @@
   <a href="https://www.chess.com/member/harry_chessing"><img src="https://img.shields.io/badge/Chess.com-5C8A47?style=for-the-badge&logo=chess.com&logoColor=white" /></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/terminal.svg" width="100%" alt="animated terminal" />
+<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/profile-network.svg" width="100%" alt="self as a neural network" />
 
 </div>
 
