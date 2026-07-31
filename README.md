@@ -19,26 +19,6 @@
 <img src="https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=2&width=900&section=header" />
 </div>
 
-## STACK
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,js,java,nestjs,postgres,gcp,pytorch,tensorflow,git&theme=dark" />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/stack-extra.svg" alt="JSON Schema, Math" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=channi23&theme=react&hide_border=true&background=0D1117&stroke=39FF14&ring=FF00FF&fire=00E5FF" />
-</div>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=39FF14&height=2&width=900&section=header" />
-</div>
-
 <div align="center">
 <sub>available now for freelance work -- AI/ML systems, backend APIs, pipelines, automation. reach out above.</sub>
-</div>
-
-<div align="center">
-<sub>ps: my code doesn't backprop through excuses.</sub>
 </div>
