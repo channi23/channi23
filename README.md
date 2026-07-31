@@ -91,3 +91,7 @@ Personal site and link hub -- one static page distributing all of my projects an
 <div align="center">
 <sub>available now for freelance work -- AI/ML systems, backend APIs, pipelines, automation. reach out above.</sub>
 </div>
+
+<div align="center">
+<sub>ps: my code doesn't backprop through excuses.</sub>
+</div>
