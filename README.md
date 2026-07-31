@@ -11,17 +11,7 @@
   <a href="https://www.chess.com/member/harry_chessing"><img src="https://img.shields.io/badge/Chess.com-5C8A47?style=for-the-badge&logo=chess.com&logoColor=white" /></a>
 </p>
 
-<pre align="left"><code>{
-  "HariHaran": {
-    "title": "AI Systems Engineer",
-    "const": "Sri Hari Haran Sharma",
-    "stack": ["Python", "TypeScript", "Rust", "Kotlin"],
-    "focus": ["ai/ml systems", "backend apis", "pipelines", "automation"],
-    "traits": ["execution", "scalability", "integrity"],
-    "status": "open_for_freelance",
-    "$ref": "#/core/system-architect"
-  }
-}</code></pre>
+<img src="https://raw.githubusercontent.com/channi23/channi23/main/assets/identity.svg" width="100%" alt="animated identity schema" />
 
 </div>
 

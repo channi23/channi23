@@ -92,10 +92,10 @@
   </circle>
 
   <g fill="#8B949E" font-size="10" text-anchor="middle">
-    <text x="100" y="205">INPUT</text>
-    <text x="280" y="205">HIDDEN</text>
-    <text x="480" y="205">HIDDEN</text>
-    <text x="660" y="205">OUTPUT</text>
+    <text x="100" y="205">INTAKE</text>
+    <text x="280" y="205">UNDERSTAND</text>
+    <text x="480" y="205">REFINE</text>
+    <text x="660" y="205">SHIP</text>
   </g>
 
   <g fill="#161B22" stroke="#39FF14" stroke-width="1.5">
@@ -111,5 +111,5 @@
     <circle cx="660" cy="85" r="6"/><circle cx="660" cy="135" r="6"/>
   </g>
 
-  <text x="400" y="20" fill="#8B949E" font-size="13" text-anchor="middle">raw data -&gt; learned weights -&gt; shipped system</text>
+  <text x="400" y="20" fill="#8B949E" font-size="13" text-anchor="middle">intake -&gt; understand -&gt; refine -&gt; ship</text>
 </svg>
